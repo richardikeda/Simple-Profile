@@ -1,0 +1,31 @@
+ {
+    "commons": {
+        "lang": "en",
+        "timezone": "UTC"
+    },
+
+    "h-card": [{
+        "lang": "en",
+        "name" : {
+            "p-name":"John Doe",
+            "p-honorific-prefix":"Mr.",
+            "p-given-name":"John",
+            "p-family-name":"Doe",
+            "p-honorific-suffix":"Ph.D.",
+            "p-nickname":"john.doe"
+        },
+        "job":{
+            "p-job-title":"Software Engineer",
+            "p-organization":"Acme Inc.",
+            "p-street-address":"123 Main St.",
+            "p-extended-address":"Suite 100",
+            "p-locality":"Anytown",
+            "p-region":"CA",
+            "p-postal-code":"12345",
+            "p-country-name":"United States",
+            "p-email":"sample@sample.com"
+        }
+       
+    }]
+}
+    

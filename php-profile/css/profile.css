@@ -1,0 +1,133 @@
+/*full css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*end full css reset*/
+
+/** 
+ * Profile CSS
+*/
+/*bealtiful css*/
+.profile {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #000;
+}
+.profile h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile h4 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile h5 {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile h6 {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+}
+.profile p {
+  font-size: 0.8em;
+  text-align: center;
+}
+.profile img {
+  width: 100%;
+  height: auto;
+}
+.profile .profile-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #000;
+}
+.profile .profile-img img {
+  width: 100%;
+  height: auto;
+}
+.profile .profile-img .profile-img-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.profile .profile-img .profile-img-overlay .profile-img-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.profile .profile-img .profile-img-overlay .profile-img-overlay-content .profile-img-overlay-content-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
