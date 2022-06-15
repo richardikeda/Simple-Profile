@@ -6,5 +6,5 @@ Here I am starting an open project to create a simple profile for your personal 
 * Minimal code
 * Any language
 * Simple e clear informations
-* Bealtiful
+* Beautiful
 * Easy to use
