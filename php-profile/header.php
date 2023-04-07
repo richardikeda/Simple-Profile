@@ -1,4 +1,8 @@
-
+<?PHP
+//require function.php
+require_once('functions.php');
+    
+?>
 <!-- html5 header full properties -->
 <html lang="en">
 <head>

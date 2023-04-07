@@ -5,4 +5,5 @@
         $data = json_decode($json, true);
         return $data;
     }
+?>
     

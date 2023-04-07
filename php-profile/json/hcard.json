@@ -1,10 +1,9 @@
- {
-    "commons": {
+ {"commons": {
         "lang": "en",
-        "timezone": "UTC"
-    },
+        "timezone": "UTC"},
 
-    "h-card": [{
+    "h-card": [
+    {
         "lang": "en",
         "name" : {
             "p-name":"John Doe",
@@ -13,8 +12,7 @@
             "p-family-name":"Doe",
             "p-honorific-suffix":"Ph.D.",
             "p-nickname":"john.doe"
-        },
-        "job":{
+        },"job":{
             "p-job-title":"Software Engineer",
             "p-organization":"Acme Inc.",
             "p-street-address":"123 Main St.",
@@ -24,8 +22,5 @@
             "p-postal-code":"12345",
             "p-country-name":"United States",
             "p-email":"sample@sample.com"
-        }
-       
-    }]
-}
+        }}]}
     
